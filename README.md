@@ -6,7 +6,7 @@ A [FanControl](https://github.com/Rem0o/FanControl.Releases) plugin that shows, 
 
 **REMOTE SENSORS ARE FOR MONITORING THE OTHER COMPUTER ONLY. NEVER USE THEM IN CURVES OR CONTROLS OF THE COMPUTER WHERE THIS PLUGIN IS INSTALLED.**
 
-If the remote data stops, is wrong or the other computer is switched off, this computer could lose the cooling it needs and its hardware could be permanently damaged.
+If the remote data stops, is wrong or the other computer is switched off, this computer could lose the cooling it needs and its hardware could be permanently damaged. Local hardware could also be damaged if its cooling depends on a remote sensor instead of on its own sensor.
 
 ## What it does
 
