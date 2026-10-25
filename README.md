@@ -42,9 +42,11 @@ The first time the plugin loads it creates `RemoteSensorsConfig.xml` in `%LocalA
 ```xml
 <?xml version="1.0"?>
 <ClientSettings>
-  <PcName>PC-NAME</PcName>
-  <Ip>192.168.1.50</Ip>
-</ClientSettings>
+  <!-- Name of the REMOTE PC: type 'hostname' in a console on the remote PC. -->
+  <PcName></PcName>
+  <!-- IP of the REMOTE PC: type 'ipconfig' in a console on the remote PC. -->
+  <Ip></Ip>
+</ClientSettings>";
 ```
 
 If both are filled in, the IP address is used. The port is fixed at 8765, the same as DataServer.
