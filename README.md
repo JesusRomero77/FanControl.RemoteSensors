@@ -92,7 +92,7 @@ Open `Source/FanControl.RemoteSensors.csproj` in Visual Studio with the .NET des
 ## Related projects
 
 - [FanControl.DataServer](https://github.com/JesusRomero77/FanControl.DataServer): serves the sensors and controls of a FanControl profile over HTTP. Required on the remote computer.
-- [FanControl.CurveReader](https://github.com/JesusRomero77/FanControl.CurveReader): logs temperature and PWM changes to a file.
+- [FanControl.CurveReader](https://github.com/JesusRomero77/FanControl.CurveReader): logs local temperature and PWM changes to a file.
 - [FanControl.WatchTower](https://github.com/JesusRomero77/FanControl.WatchTower): a program to configure these plugins and to record the data of a remote DataServer into a log.
 
 ## Disclaimer
