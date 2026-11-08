@@ -8,6 +8,7 @@ A [FanControl](https://github.com/Rem0o/FanControl.Releases) plugin that shows, 
 
 - If the remote data stops, is wrong or the other computer is switched off, this computer could lose the cooling it needs and its hardware could be permanently damaged.
 - Local hardware could also be permanently damaged if its cooling depends on a remote sensor instead of on its own sensor.
+- This plugin only runs while the FanControl interface is open. FanControl running as a service (without the interface) does not load plugins, so the `REMOTE` sensors will not exist there.
 
 **NO LIABILITY FOR MISUSE.** Using the remote sensors provided by this plugin as the source of curves or controls that drive the fans of any computer other than the one that produces those readings is a misuse of this software. The author is **not responsible** for any damage (including overheating, hardware failure, data loss or any other harm) caused by this or any other misuse. You use this plugin entirely at your own risk. See the [Disclaimer](#disclaimer) and the [License](#license).
 
