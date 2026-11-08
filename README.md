@@ -9,6 +9,8 @@ A [FanControl](https://github.com/Rem0o/FanControl.Releases) plugin that shows, 
 - If the remote data stops, is wrong or the other computer is switched off, this computer could lose the cooling it needs and its hardware could be permanently damaged.
 - Local hardware could also be permanently damaged if its cooling depends on a remote sensor instead of on its own sensor.
 
+**NO LIABILITY FOR MISUSE.** Using the remote sensors provided by this plugin as the source of curves or controls that drive the fans of any computer other than the one that produces those readings is a misuse of this software. The author is **not responsible** for any damage (including overheating, hardware failure, data loss or any other harm) caused by this or any other misuse. You use this plugin entirely at your own risk. See the [Disclaimer](#disclaimer) and the [License](#license).
+
 ## What it does
 
 - Reads the sensors of the active profile of the remote FanControl once per second and publishes each of them as a FanControl sensor named `REMOTE <name>`.
@@ -99,9 +101,11 @@ Open `Source/FanControl.RemoteSensors.csproj` in Visual Studio with the .NET des
 
 This project is not affiliated with FanControl or its author.
 
+**Use at your own risk.** This software is provided "as is", without warranty of any kind, express or implied. The author accepts no responsibility or liability for any damage, loss or harm of any kind (including, but not limited to, hardware damage caused by overheating or loss of cooling, data loss or system failure) resulting from the use or misuse of this plugin. In particular, using the `REMOTE` sensors as the source of curves or controls that drive the fans of any computer other than the one that provides those readings is a misuse of this plugin, and any consequence of it is solely the responsibility of the user. By installing and using this plugin you accept these terms.
+
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE), which also includes its own disclaimer of warranty and limitation of liability.
 
 FanControl and the libraries it provides to plugins (such as Newtonsoft.Json) are not part of this repository and remain under their own licenses.
 
