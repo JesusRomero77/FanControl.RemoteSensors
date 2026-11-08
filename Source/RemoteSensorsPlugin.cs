@@ -44,7 +44,7 @@ namespace FanControl.RemoteSensors
             int added = 0;
             if (_settings.IsConfigured)
             {
-                _api = new RemoteApi(_settings.BaseUrl, LoadTimeoutMs);
+                _api = new RemoteApi(_settings.BaseUrl, _settings.EffectivePassword, LoadTimeoutMs);
                 _loadedProfile = ProfileCache.Load() ?? FetchProfileNow();
 
                 if (_loadedProfile != null && _loadedProfile.Sensors != null)
